@@ -1,0 +1,177 @@
+@import "tailwindcss";
+
+/* RTL/LTR variants follow the dir on <html>. */
+@custom-variant rtl (&:where([dir="rtl"], [dir="rtl"] *));
+@custom-variant ltr (&:where([dir="ltr"], [dir="ltr"] *));
+
+/* ── Color tokens (DESIGN.md §1). Dark is the default. ───────────────── */
+:root {
+  --ink: #18212e;
+  --surface: #222d3c;
+  --line: #3a4555;
+  --paper: #f6f3ec;
+  --paper-pressed: #dcd6c8;
+  --dust: #b4ad9f;
+  --disabled-text: #cfc8ba;
+  --stamp: #b83227;
+  --stamp-safe: #1f7a4d;
+  --alert: #f26b5b;
+  --safe: #4cb882;
+  --warn: #e0b030;
+  --dot: #263142;
+  --deco: #2e3b4f;
+  --scrim: rgba(10, 14, 20, 0.72);
+  --slip-meta: #5b6472;
+  /* Message slip: paper fill with ink text. */
+  --slip: #f6f3ec;
+  --slip-text: #18212e;
+  --slip-border: #f6f3ec;
+  --stamp-bg: rgba(246, 243, 236, 0.92);
+  --urlbar: #ffffff;
+  --urlbar-border: #d8d2c4;
+
+  color-scheme: dark;
+}
+
+[data-theme="light"] {
+  --ink: #f6f3ec;
+  --surface: #ffffff;
+  --line: #d8d2c4;
+  --paper: #18212e;
+  --paper-pressed: #2e3b4f;
+  --dust: #5b6472;
+  --disabled-text: #3a4555;
+  --alert: #b83227;
+  --safe: #1f7a4d;
+  --warn: #8a6100;
+  --dot: #e6e0d3;
+  --deco: #ddd6c7;
+  --slip: #ffffff;
+  --slip-text: #18212e;
+  --slip-border: #d8d2c4;
+
+  color-scheme: light;
+}
+
+/* ── Tailwind theme: only the design tokens exist. ─────────────────── */
+@theme inline {
+  --color-*: initial;
+  --color-ink: var(--ink);
+  --color-surface: var(--surface);
+  --color-line: var(--line);
+  --color-paper: var(--paper);
+  --color-paper-pressed: var(--paper-pressed);
+  --color-dust: var(--dust);
+  --color-disabled-text: var(--disabled-text);
+  --color-stamp: var(--stamp);
+  --color-stamp-safe: var(--stamp-safe);
+  --color-alert: var(--alert);
+  --color-safe: var(--safe);
+  --color-warn: var(--warn);
+  --color-dot: var(--dot);
+  --color-deco: var(--deco);
+  --color-scrim: var(--scrim);
+  --color-slip-meta: var(--slip-meta);
+  --color-slip: var(--slip);
+  --color-slip-text: var(--slip-text);
+  --color-slip-border: var(--slip-border);
+  --color-stamp-bg: var(--stamp-bg);
+  --color-urlbar: var(--urlbar);
+  --color-urlbar-border: var(--urlbar-border);
+
+  /* Typography (DESIGN.md §2): 4 sizes, plus the mono URL row in the slip. */
+  --text-*: initial;
+  --text-display: 48px;
+  --text-display--line-height: 60px;
+  --text-title: 22px;
+  --text-title--line-height: 31px;
+  --text-body: 16px;
+  --text-body--line-height: 27px;
+  --text-caption: 13px;
+  --text-caption--line-height: 20px;
+  --text-url: 14px;
+  --text-url--line-height: 24px;
+
+  --font-*: initial;
+  --font-display: var(--font-almarai), system-ui, sans-serif;
+  --font-body: var(--font-noto-arabic), system-ui, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+
+  /* Radius (DESIGN.md §3): 8 for everything, 4 for chips/segments/progress. */
+  --radius-*: initial;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* 8px grid: spacing unit stays 4px so p-2 = 8, p-4 = 16, p-6 = 24 … */
+  --spacing: 4px;
+
+  --shadow-*: initial;
+
+  --animate-stamp: stamp 420ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+  --animate-spin: spin 0.8s linear infinite;
+}
+
+@keyframes stamp {
+  0% {
+    transform: scale(1.6) rotate(-4deg);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(0.94) rotate(-12deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(-12deg);
+  }
+}
+
+/* ── Base ─────────────────────────────────────────────────────────── */
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--ink);
+  background-image: radial-gradient(var(--dot) 1.2px, transparent 1.2px);
+  background-size: 24px 24px;
+  color: var(--paper);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 27px;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-display);
+  font-weight: 800;
+}
+
+/* No letter-spacing on Arabic. */
+[lang="ar"] * {
+  letter-spacing: 0 !important;
+}
+
+:focus-visible {
+  outline: 2px solid var(--paper);
+  outline-offset: 2px;
+}
+
+dialog::backdrop {
+  background: var(--scrim);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .motion-stamp {
+    animation: none !important;
+    transform: none;
+  }
+}
