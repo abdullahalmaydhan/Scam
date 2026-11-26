@@ -1,0 +1,132 @@
+[
+ {
+  "code": "first_round",
+  "name_ar": "البداية",
+  "name_en": "Getting started",
+  "description_ar": "أكملت أول جولة",
+  "rule": "first_round",
+  "threshold": null,
+  "category": null,
+  "sort": 1
+ },
+ {
+  "code": "perfect_round",
+  "name_ar": "عين الصقر",
+  "name_en": "Hawk eye",
+  "description_ar": "أكملت جولة بدون أخطاء",
+  "rule": "perfect_round",
+  "threshold": null,
+  "category": null,
+  "sort": 2
+ },
+ {
+  "code": "perfect_hard",
+  "name_ar": "المحترف",
+  "name_en": "Pro",
+  "description_ar": "أكملت جولة صعبة بدون أخطاء",
+  "rule": "perfect_hard_round",
+  "threshold": null,
+  "category": null,
+  "sort": 3
+ },
+ {
+  "code": "points_100",
+  "name_ar": "١٠٠ نقطة",
+  "name_en": "100 points",
+  "description_ar": "وصلت ١٠٠ نقطة",
+  "rule": "points_total",
+  "threshold": 100,
+  "category": null,
+  "sort": 4
+ },
+ {
+  "code": "points_500",
+  "name_ar": "٥٠٠ نقطة",
+  "name_en": "500 points",
+  "description_ar": "وصلت ٥٠٠ نقطة",
+  "rule": "points_total",
+  "threshold": 500,
+  "category": null,
+  "sort": 5
+ },
+ {
+  "code": "points_1k",
+  "name_ar": "ألف نقطة",
+  "name_en": "1K points",
+  "description_ar": "وصلت ١٠٠٠ نقطة",
+  "rule": "points_total",
+  "threshold": 1000,
+  "category": null,
+  "sort": 6
+ },
+ {
+  "code": "points_5k",
+  "name_ar": "٥ آلاف نقطة",
+  "name_en": "5K points",
+  "description_ar": "وصلت ٥٠٠٠ نقطة",
+  "rule": "points_total",
+  "threshold": 5000,
+  "category": null,
+  "sort": 7
+ },
+ {
+  "code": "points_10k",
+  "name_ar": "١٠ آلاف نقطة",
+  "name_en": "10K points",
+  "description_ar": "وصلت ١٠٠٠٠ نقطة",
+  "rule": "points_total",
+  "threshold": 10000,
+  "category": null,
+  "sort": 8
+ },
+ {
+  "code": "expert_sms",
+  "name_ar": "خبير الرسائل",
+  "name_en": "SMS expert",
+  "description_ar": "جاوبت صح على ٥٠ سؤال رسائل نصية",
+  "rule": "category_correct",
+  "threshold": 50,
+  "category": "sms",
+  "sort": 9
+ },
+ {
+  "code": "expert_email",
+  "name_ar": "خبير البريد",
+  "name_en": "Email expert",
+  "description_ar": "جاوبت صح على ٥٠ سؤال بريد",
+  "rule": "category_correct",
+  "threshold": 50,
+  "category": "email",
+  "sort": 10
+ },
+ {
+  "code": "expert_whatsapp",
+  "name_ar": "خبير الواتساب",
+  "name_en": "WhatsApp expert",
+  "description_ar": "جاوبت صح على ٥٠ سؤال واتساب",
+  "rule": "category_correct",
+  "threshold": 50,
+  "category": "whatsapp",
+  "sort": 11
+ },
+ {
+  "code": "expert_websites",
+  "name_ar": "خبير المواقع",
+  "name_en": "Websites expert",
+  "description_ar": "جاوبت صح على ٥٠ سؤال مواقع",
+  "rule": "category_correct",
+  "threshold": 50,
+  "category": "websites",
+  "sort": 12
+ },
+ {
+  "code": "expert_banking",
+  "name_ar": "خبير الاحتيال البنكي",
+  "name_en": "Banking expert",
+  "description_ar": "جاوبت صح على ٥٠ سؤال احتيال بنكي",
+  "rule": "category_correct",
+  "threshold": 50,
+  "category": "banking",
+  "sort": 13
+ }
+]

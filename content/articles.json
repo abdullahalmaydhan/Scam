@@ -1,0 +1,464 @@
+[
+ {
+  "slug": "links",
+  "title_ar": "الرسائل والروابط المشبوهة",
+  "minutes": 2,
+  "intro_ar": "أغلب رسائل الاحتيال تبي منك شيء واحد: تضغط الرابط قبل لا تفكر.",
+  "sort": 1,
+  "sections": [
+   {
+    "heading": "٣ علامات تكشفها",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "الرابط غريب: اسم الجهة مكتوب فيه، بس الموقع مو الموقع الرسمي، مثل spl-ksa-track.info.",
+     "فيه استعجال: «خلال ١٢ ساعة» أو «بيتم إيقاف حسابك».",
+     "يطلب بيانات أو فلوس: رمز تحقق، أو رقم بطاقة، أو مبلغ صغير باسم «رسوم»."
+    ]
+   },
+   {
+    "heading": "إذا وصلتك وحدة",
+    "kind": "p",
+    "text": "لا تضغط الرابط. افتح تطبيق الجهة الرسمي بنفسك وتأكد من هناك، واحذف الرسالة.",
+    "items": null
+   }
+  ],
+  "title_en": "Suspicious messages and links",
+  "intro_en": "Most scam messages want one thing: for you to tap the link before you think.",
+  "sections_en": [
+   {
+    "heading": "3 signs that give them away",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "The link is strange: it has the company’s name in it, but it isn’t the official site, like spl-ksa-track.info.",
+     "It rushes you: “within 12 hours” or “your account will be suspended”.",
+     "It asks for details or money: a verification code, a card number, or a small amount called a “fee”."
+    ]
+   },
+   {
+    "heading": "If you get one",
+    "kind": "p",
+    "text": "Don’t tap the link. Open the company’s official app yourself, check there, and delete the message.",
+    "items": null
+   }
+  ]
+ },
+ {
+  "slug": "phishing",
+  "title_ar": "التصيد الإلكتروني",
+  "minutes": 2,
+  "intro_ar": "التصيد يعني صفحة أو رسالة مزيفة تقلّد جهة تعرفها، عشان تكتب فيها بياناتك بنفسك.",
+  "sort": 2,
+  "sections": [
+   {
+    "heading": "كيف يشتغل",
+    "kind": "p",
+    "text": "يوصلك رابط لصفحة دخول تشبه صفحة بنكك أو بريدك. أي شيء تكتبه فيها يروح للمحتال على طول.",
+    "items": null
+   },
+   {
+    "heading": "كيف تكشفه",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "اقرأ عنوان المرسل كامل، مو بس الاسم اللي يطلع.",
+     "شوف آخر جزء في الرابط قبل أول شرطة مائلة (/). هذا هو صاحب الموقع.",
+     "أي صفحة تطلب كلمة المرور ورمز التحقق مع بعض، وصلت لها من رسالة، اعتبرها مشبوهة."
+    ]
+   },
+   {
+    "heading": "عادات تحميك",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "ادخل للمواقع المهمة من التطبيق أو بكتابة العنوان بنفسك.",
+     "فعّل التحقق الثنائي في بريدك وحساباتك المهمة."
+    ]
+   }
+  ],
+  "title_en": "Phishing",
+  "intro_en": "Phishing is a fake page or message that copies a company you know, so you type your details into it yourself.",
+  "sections_en": [
+   {
+    "heading": "How it works",
+    "kind": "p",
+    "text": "You get a link to a login page that looks like your bank’s or your email’s. Anything you type goes straight to the scammer.",
+    "items": null
+   },
+   {
+    "heading": "How to spot it",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "Read the full sender address, not just the name shown.",
+     "Look at the last part of the link before the first slash (/). That’s who owns the site.",
+     "Treat any page you reached from a message that asks for your password and a verification code together as suspicious."
+    ]
+   },
+   {
+    "heading": "Habits that protect you",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "Open important sites from their app, or type the address yourself.",
+     "Turn on two-factor authentication for your email and important accounts."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "social",
+  "title_ar": "الهندسة الاجتماعية",
+  "minutes": 3,
+  "intro_ar": "الهندسة الاجتماعية هي إن المحتال يلعب على مشاعرك بدال ما يخترق جهازك.",
+  "sort": 3,
+  "sections": [
+   {
+    "heading": "٤ مشاعر يستغلها",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "الخوف: «حسابك بيتوقف»، «عليك قضية».",
+     "الطمع: «فزت»، «أرباح مضمونة».",
+     "الاستعجال: «خلال ساعة»، «لأول ١٠٠ شخص».",
+     "الثقة: ينتحل شخصية موظف بنك، أو مدير، أو قريب لك."
+    ]
+   },
+   {
+    "heading": "أمثلة تصير كثير",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "«يبه هذا رقمي الجديد، حوّل لي ضروري».",
+     "موظف «من البنك» يتصل ويطلب الرمز اللي وصلك «عشان يلغي عملية»."
+    ]
+   },
+   {
+    "heading": "القاعدة الذهبية",
+    "kind": "p",
+    "text": "وقّف قبل لا ترد. تأكد بطريقة أنت تختارها: اتصل على الرقم اللي تعرفه، أو افتح التطبيق بنفسك. ورمز التحقق ما تعطيه لأحد، مهما كان.",
+    "items": null
+   }
+  ],
+  "title_en": "Social engineering",
+  "intro_en": "Social engineering means the scammer plays on your feelings instead of hacking your device.",
+  "sections_en": [
+   {
+    "heading": "4 feelings they use",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "Fear: “your account will be suspended”, “there’s a case against you”.",
+     "Greed: “you won”, “guaranteed profit”.",
+     "Urgency: “within an hour”, “first 100 people only”.",
+     "Trust: pretending to be a bank employee, a manager, or a relative."
+    ]
+   },
+   {
+    "heading": "Common examples",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "“Dad, this is my new number, send me money urgently.”",
+     "A “bank employee” calls and asks for the code you got “to cancel a transaction”."
+    ]
+   },
+   {
+    "heading": "The golden rule",
+    "kind": "p",
+    "text": "Stop before you reply. Check in a way you choose: call a number you know, or open the app yourself. Never give your verification code to anyone, whoever they are.",
+    "items": null
+   }
+  ]
+ },
+ {
+  "slug": "banking",
+  "title_ar": "الاحتيال البنكي",
+  "minutes": 2,
+  "intro_ar": "البنك ما يطلب منك أبداً الرقم السري، ولا كلمة المرور، ولا رمز التحقق، لا برسالة ولا باتصال.",
+  "sort": 4,
+  "sections": [
+   {
+    "heading": "علامات الرسالة البنكية المزيفة",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "فيها رابط «لتحديث البيانات» أو «إعادة التفعيل».",
+     "تطلب منك تتصل على رقم غير الرقم اللي خلف بطاقتك.",
+     "تطلب منك تحوّل فلوسك «لحساب آمن»."
+    ]
+   },
+   {
+    "heading": "انتبه",
+    "kind": "p",
+    "text": "اسم المرسل في الرسائل النصية ممكن يتزوّر، فحتى لو الرسالة جاية باسم بنكك، الحكم يكون على اللي تطلبه منك.",
+    "items": null
+   },
+   {
+    "heading": "إذا شكّيت",
+    "kind": "p",
+    "text": "اتصل على الرقم المكتوب خلف بطاقتك، أو افتح تطبيق البنك بنفسك وشوف العمليات.",
+    "items": null
+   }
+  ],
+  "title_en": "Bank scams",
+  "intro_en": "Your bank will never ask for your PIN, password or verification code, by message or by phone.",
+  "sections_en": [
+   {
+    "heading": "Signs of a fake bank message",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "It has a link to “update your details” or “reactivate”.",
+     "It asks you to call a number that isn’t the one on the back of your card.",
+     "It asks you to move your money to a “safe account”."
+    ]
+   },
+   {
+    "heading": "Watch out",
+    "kind": "p",
+    "text": "The sender name on a text message can be faked. Even if it shows your bank’s name, judge it by what it asks you to do.",
+    "items": null
+   },
+   {
+    "heading": "If you’re unsure",
+    "kind": "p",
+    "text": "Call the number on the back of your card, or open your bank’s app yourself and check your transactions.",
+    "items": null
+   }
+  ]
+ },
+ {
+  "slug": "impersonation",
+  "title_ar": "انتحال الهوية",
+  "minutes": 2,
+  "intro_ar": "انتحال الهوية يعني المحتال يتكلم باسم جهة حكومية، أو شركة، أو شخص تعرفه.",
+  "sort": 5,
+  "sections": [
+   {
+    "heading": "أشهر الصور",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "حساب واتساب باسم شركة، بس ما عليه علامة توثيق.",
+     "رقم جديد يقول إنه قريبك أو زميلك.",
+     "إيميل من نطاق يشبه نطاق شركتك بحرف واحد."
+    ]
+   },
+   {
+    "heading": "كيف تتأكد",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "تواصل مع الشخص أو الجهة على رقم أو قناة كنت تعرفها من قبل.",
+     "لا تعتمد على الاسم أو الصورة. هذي تنسخ بسهولة."
+    ]
+   },
+   {
+    "heading": "احمِ نفسك",
+    "kind": "p",
+    "text": "لا تنشر رقم هويتك أو صور بطاقاتك. وصورة بطاقتك من الوجهين تكفي لسرقة فلوسك.",
+    "items": null
+   }
+  ],
+  "title_en": "Impersonation",
+  "intro_en": "Impersonation means the scammer speaks in the name of a government body, a company, or someone you know.",
+  "sections_en": [
+   {
+    "heading": "The most common forms",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "A WhatsApp account with a company’s name but no verified badge.",
+     "A new number that says it’s your relative or colleague.",
+     "An email from a domain one letter away from your company’s."
+    ]
+   },
+   {
+    "heading": "How to check",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "Contact the person or organization on a number or channel you already knew.",
+     "Don’t rely on the name or photo. They’re easy to copy."
+    ]
+   },
+   {
+    "heading": "Protect yourself",
+    "kind": "p",
+    "text": "Don’t share your ID number or photos of your cards. A photo of both sides of your card is enough to steal your money.",
+    "items": null
+   }
+  ]
+ },
+ {
+  "slug": "fake-sites",
+  "title_ar": "المواقع الإلكترونية المزيفة",
+  "minutes": 3,
+  "intro_ar": "المواقع المزيفة تنسخ شكل الموقع الحقيقي، والفرق غالباً يكون في الرابط.",
+  "sort": 6,
+  "sections": [
+   {
+    "heading": "اقرأ الرابط صح",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "صاحب الموقع هو الجزء اللي قبل أول شرطة مائلة (/)، وتقراه من آخره: في store.sa-offers.com صاحب الموقع sa-offers.com.",
+     "دوّر على الحروف المبدّلة: bankk بدال bank، وrn بدال m، وصفر بدال O.",
+     "المواقع الحكومية السعودية تنتهي بـ gov.sa."
+    ]
+   },
+   {
+    "heading": "https لحالها ما تكفي",
+    "kind": "p",
+    "text": "القفل يعني إن الاتصال مشفّر، مو إن الموقع صادق. المحتالين يقدرون يحطون القفل بعد.",
+    "items": null
+   },
+   {
+    "heading": "عند الدفع",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "ادفع بالبطاقة أو عند الاستلام، وابعد عن «التحويل البنكي فقط».",
+     "الخصم الخيالي، مثل ٩٠٪ على كل شيء، علامة واضحة."
+    ]
+   }
+  ],
+  "title_en": "Fake websites",
+  "intro_en": "Fake websites copy the look of the real one. The difference is usually in the link.",
+  "sections_en": [
+   {
+    "heading": "Read the link the right way",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "The owner is the part before the first slash (/), read from its end: in store.sa-offers.com the owner is sa-offers.com.",
+     "Look for swapped letters: bankk instead of bank, rn instead of m, a zero instead of O.",
+     "Saudi government sites end in gov.sa."
+    ]
+   },
+   {
+    "heading": "https alone isn’t enough",
+    "kind": "p",
+    "text": "The lock means the connection is encrypted, not that the site is honest. Scammers can add the lock too.",
+    "items": null
+   },
+   {
+    "heading": "When you pay",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "Pay by card or cash on delivery, and avoid “bank transfer only”.",
+     "An unbelievable discount, like 90% off everything, is a clear sign."
+    ]
+   }
+  ]
+ },
+ {
+  "slug": "if-scammed",
+  "title_ar": "وش تسوي إذا انخدعت",
+  "minutes": 2,
+  "intro_ar": "السرعة أهم شيء. كل دقيقة تفرق.",
+  "sort": 7,
+  "sections": [
+   {
+    "heading": "بالترتيب",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "اتصل على بنكك فوراً على الرقم اللي خلف بطاقتك، واطلب إيقاف البطاقة أو تجميد العمليات.",
+     "غيّر كلمات المرور لأي حساب دخلت بياناته، وفعّل التحقق الثنائي.",
+     "بلّغ عن الجريمة عبر تطبيق «كلنا أمن».",
+     "احتفظ بالرسائل وأرقام المرسلين وصور الشاشة كدليل."
+    ]
+   },
+   {
+    "heading": "لا تستحي",
+    "kind": "p",
+    "text": "الاحتيال يصير لناس كثير مهما كانت خبرتهم. وكل ما بلّغت أسرع، زادت فرصتك ترجع فلوسك.",
+    "items": null
+   },
+   {
+    "heading": "انتبه بعدها",
+    "kind": "p",
+    "text": "بعض المحتالين يرجعون يعرضون «يستردون لك فلوسك» مقابل رسوم. هذا احتيال ثاني.",
+    "items": null
+   }
+  ],
+  "title_en": "What to do if you were scammed",
+  "intro_en": "Speed matters most. Every minute counts.",
+  "sections_en": [
+   {
+    "heading": "In this order",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "Call your bank right away on the number on the back of your card, and ask them to block the card or freeze transactions.",
+     "Change the passwords of any account whose details you entered, and turn on two-factor authentication.",
+     "Report the crime through the “Kollona Amn” app.",
+     "Keep the messages, the sender numbers and screenshots as evidence."
+    ]
+   },
+   {
+    "heading": "Don’t be embarrassed",
+    "kind": "p",
+    "text": "Scams happen to many people, whatever their experience. The sooner you report, the better your chance of getting your money back.",
+    "items": null
+   },
+   {
+    "heading": "Watch out afterwards",
+    "kind": "p",
+    "text": "Some scammers come back offering to “recover your money” for a fee. That’s a second scam.",
+    "items": null
+   }
+  ]
+ },
+ {
+  "slug": "report",
+  "title_ar": "وين تبلّغ في السعودية",
+  "minutes": 1,
+  "intro_ar": "هذي القنوات الرسمية للإبلاغ عن الاحتيال.",
+  "sort": 8,
+  "sections": [
+   {
+    "heading": "القنوات",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "رسالة نصية احتيالية: أعد إرسالها مع رقم المرسل إلى الرقم الموحد 330330.",
+     "عملية بنكية ما سويتها: اتصل على بنكك فوراً على الرقم اللي خلف بطاقتك.",
+     "جرائم إلكترونية، مثل الروابط المزيفة وانتحال الشخصية والابتزاز: تطبيق «كلنا أمن».",
+     "إذا ما تجاوب بنكك مع شكواك: تقدر تصعّدها للبنك المركزي السعودي عبر «ساما تهتم»."
+    ]
+   },
+   {
+    "heading": "ملاحظة",
+    "kind": "p",
+    "text": "المعلومات هذي من مصادر رسمية وقت كتابتها، وراجعها من موقع البنك المركزي السعودي قبل النشر.",
+    "items": null
+   }
+  ],
+  "title_en": "Where to report in Saudi Arabia",
+  "intro_en": "These are the official channels for reporting scams.",
+  "sections_en": [
+   {
+    "heading": "Channels",
+    "kind": "list",
+    "text": null,
+    "items": [
+     "A scam text message: forward it with the sender’s number to the unified number 330330.",
+     "A bank transaction you didn’t make: call your bank right away on the number on the back of your card.",
+     "Cybercrime, like fake links, impersonation and blackmail: the “Kollona Amn” app.",
+     "If your bank doesn’t respond to your complaint: you can escalate it to the Saudi Central Bank through “SAMA Cares”."
+    ]
+   },
+   {
+    "heading": "Note",
+    "kind": "p",
+    "text": "This information comes from official sources at the time of writing. Check it on the Saudi Central Bank’s website before launch.",
+    "items": null
+   }
+  ]
+ }
+]
